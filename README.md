@@ -11,4 +11,6 @@
 |-- fonts
 |-- theme
 |-- vnc
+|-- plank    # Plank theme
+|-- plymouth # 开机画面
 ```
