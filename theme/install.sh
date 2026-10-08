@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 获取当前目录
-DIR==$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 
 sudo apt update
 sudo apt install sassc optipng inkscape libglib2.0-dev gtk2-engines-murrine gtk2-engines-pixbuf
