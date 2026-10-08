@@ -8,9 +8,9 @@ unzip MacOS-Seirra-Dark.zip
 unzip MacOS-Seirra-Light.zip
 
 mkdir -p ~/.local/share/plank/themes
-mv -rf ./mcOS-Monterey-Light ~/.local/share/plank/themes/
-mv -rf ./mcOS-BS-White-Stock ~/.local/share/plank/themes/
-mv -rf ./elementaryMac-Dark ~/.local/share/plank/themes/
-mv -rf ./elementaryMac-Light ~/.local/share/plank/themes/
-mv -rf ./MacOS-Seirra-Dark ~/.local/share/plank/themes/
-mv -rf ./MacOS-Seirra-Light ~/.local/share/plank/themes/
+mv -f ./mcOS-Monterey-Light ~/.local/share/plank/themes/
+mv -f ./mcOS-BS-White-Stock ~/.local/share/plank/themes/
+mv -f ./elementaryMac-Dark ~/.local/share/plank/themes/
+mv -f ./elementaryMac-Light ~/.local/share/plank/themes/
+mv -f ./MacOS-Seirra-Dark ~/.local/share/plank/themes/
+mv -f ./MacOS-Seirra-Light ~/.local/share/plank/themes/
