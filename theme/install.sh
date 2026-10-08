@@ -57,3 +57,5 @@ echo "Update Plank Themes..."
 mkdir -p ~/.local/share/plank/
 rm -rf ~/.local/share/plank/themes
 cp -rf ./WhiteSur-gtk-theme/other/plank ~/.local/share/plank/themes
+
+sudo apt autoremove

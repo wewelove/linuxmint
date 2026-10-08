@@ -1,3 +1,5 @@
+*.tar.gz
+
 /theme/WhiteSur-wallpapers
 /theme/WhiteSur-icon-theme
 /theme/WhiteSur-gtk-theme
@@ -5,4 +7,3 @@
 /theme/McMojave-cursors
 
 /fcitx5/fcitx5-themes-candlelight
-Downloads.tar.gz
