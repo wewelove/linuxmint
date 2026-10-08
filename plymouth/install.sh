@@ -69,7 +69,7 @@ if ! unzip -q -o "$ZIP" -d "$DIR"; then
 fi
 
 # 安装主题文件
-sudo cp -r "$DIR/${THEME}-glowing-slider" /usr/share/plymouth/themes/
+sudo mv -rf "$DIR/${THEME}-glowing-slider" /usr/share/plymouth/themes/
 
 # 注册并选择为默认主题
 sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth \
