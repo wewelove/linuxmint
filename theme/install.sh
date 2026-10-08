@@ -75,4 +75,4 @@ cd $DIR
 echo "Update Wallpapers..."
 sudo cp -f ./wallpapers/* /usr/share/backgrounds/linuxmint-wallpapers/
 
-sudo apt autoremove
+sudo apt autoremove -y
